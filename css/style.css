@@ -1,0 +1,20 @@
+.top{
+    border-radius: 20px;
+    height: 400px;
+    background-color: cornflowerblue;
+
+}
+
+.tophide{
+    
+    animation: move 5s;
+}
+
+@keyframes move{
+    from{visibility: visible;}
+    to{visibility: hidden;}
+}
+
+h1{
+    padding-top: 10px;
+}

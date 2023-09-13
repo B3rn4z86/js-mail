@@ -9,21 +9,23 @@
   <title>JsMail</title>
 </head>
 <body>
-  <div class="container-sm text-center mt-5 ">
-    <h1>EFFETTUA L'ACCESSO</h1>
-  </div>
-  <div class="container-sm d-flex justify-content-center  mt-5 ">
-    
-    <label class="m-2 fs-4  " for="email">INSERISCI LA TUA MAIL</label>
-    <input type="email" placeholder="esempio@mail.it" name="mail" id="email">
-  </div>
-  <div class="container-sm mt-5 d-flex justify-content-center button">
-    <button type="button" id="accedi" class="btn btn-primary">Accedi</button>
-
-  </div>
-  <div class="message d-flex justify-content-center ">
-    <h1 id="msg"></h1>
-    
+  <div id="hide" class=" container top tophide">
+    <div class="container-sm text-center mt-5 ">
+      <h1>EFFETTUA L'ACCESSO</h1>
+    </div>
+    <div class="container-sm d-flex justify-content-center  mt-5 ">
+      
+      <label class="m-2 fs-4  " for="email">INSERISCI LA TUA MAIL</label>
+      <input type="email" placeholder="esempio@mail.it" name="mail" id="email">
+    </div>
+    <div class="container-sm mt-5 d-flex justify-content-center button">
+      <button type="button" id="accedi" class="btn btn-primary">Accedi</button>
+  
+    </div>
+    <div class="d-flex justify-content-center ">
+      <h2 id="msg" class="d-flex mt-5"></h2>
+      
+    </div>
   </div>
   <script src="JS/script.js"></script>
 </body>
