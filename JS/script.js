@@ -16,7 +16,23 @@ btnAccesso.addEventListener("click", function () {
     document.getElementById("msg").innerHTML = "Registrati per accedere";
     ;
   }
-});
+});  
+
+////////////////////DADI//////////////////////////
+
+const giocatore = math.ceil(math.random()*6)
+const pc = math.ceil(math.random()*6)
+let messaggio;
+
+if(giocatore > pc ) messaggio = "Vince il giocatore"
+else (giocatore < pc) messaggio = "vince il pc"
+else messaggio = "pari";
+
+
+
+
+
+
 
 
 
